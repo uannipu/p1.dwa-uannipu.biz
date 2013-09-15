@@ -21,7 +21,6 @@ h1,h2,h3  {font-family: Tahoma, Geneva, sans-serif; color: #003399; }
 .buttonPanel { margin-left: 20px; margin-bottom: 20px;  }
 .buttonPanel input { font-size: 15px; padding: 5px 10px;}
 
-
 /** Home Page Styles *************************************************************************************************/
 .homepage .description { padding-bottom: 0;font-family: Tahoma, Geneva, sans-serif; }
 .homepage .description h1 { margin: 10px 0 0; padding: 0; }

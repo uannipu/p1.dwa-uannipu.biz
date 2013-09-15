@@ -3,11 +3,13 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Welcome to DWA - Project 1</title>
-   <link rel="stylesheet" type="text/css" href="main.css"/>
+    <!-- including the style sheet file -->
+    <link rel="stylesheet" type="text/css" href="main.css"/>
 </head>
 <body>
 
 <div id="container">
+    <!-- including the header html by using php include -->
     <?php include 'header.html'; ?>
     <div id="contentWithNav" class="homepage">
         <div class="description">
@@ -22,6 +24,7 @@
                     </tr>
                 <tr>
                     <td id="bio"  class="tableData">
+                        <!-- the below table is to display Bio and IDE preference -->
                          <table cellspacing="2" cellpadding="5" border="0" width="100%">
                             <tr>
                                 <th>Background:</th>
@@ -58,6 +61,7 @@
             </table>
         </div>
     </div>
+    <!-- including footer html using php include -->
     <?php include 'footer.html'; ?>
     </div>
 </body>
